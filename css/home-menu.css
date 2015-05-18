@@ -1,0 +1,88 @@
+.menu {
+	width: 300px;
+height: 292px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-filter: url("#goo");
+	filter: url("../index.html#goo");
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.menu-wrapper {
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+}
+
+.menu-toggle-button,
+.menu-item-bounce,
+.menu-item-button {
+	background: rgb(38, 174, 245);
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin-left: -80px;
+	margin-top: -80px;
+	color: #fff;
+	border: none;
+	outline: none;
+	position: relative;
+}
+
+.menu-toggle-button {
+	background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.menu-toggle-icon {
+font-size: 130px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	line-height: 160px;
+	font-weight: bold;
+}
+
+.menu-items {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.menu-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+}
+
+.menu-item-bounce {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.menu-item-button {
+	width: 120px;
+	height: 120px;
+	margin-left: -60px;
+	margin-top: -60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.menu-item-icon{
+				font-size:55px;
+}
+.menu-item-button:hover {
+	color: #fff;
+}
